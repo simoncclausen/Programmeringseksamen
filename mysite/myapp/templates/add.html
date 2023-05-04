@@ -1,0 +1,18 @@
+<!-- Lavet af Simon Clausen -->
+{% extends "base.html" %}
+
+{% load static %}
+{% block stylesheets %}
+<link rel="stylesheet" href="{% static 'myapp/add.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1>Add an activity</h1>
+
+<form method="get">
+    <div class="addform"> {{ form }}
+        <button class="addsubmit" type="submit">Tilføj</button>
+    </div>
+</form>
+
+{% endblock %}

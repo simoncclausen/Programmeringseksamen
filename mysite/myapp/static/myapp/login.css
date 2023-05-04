@@ -1,0 +1,80 @@
+/* Lavet af Simon Clausen */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginform{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+
+.fa-user{
+    color: #ffffff;
+    margin: 10px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+    position: relative;
+    top: 75%;
+    left: -10%;
+}
+
+.fa-lock{
+    color: #ffffff;
+    margin: 10px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+    position: relative;
+    top: -270%;
+    left: -10%;
+}
+
+input{
+    background-color: #606062;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+}
+
+.loginknap{
+    background-color: #41c674;
+    color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+}
+
+.loginknap:hover{
+    background-color: #20da671a;
+    color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+    box-shadow: 0 0 15px #82bb97;
+}

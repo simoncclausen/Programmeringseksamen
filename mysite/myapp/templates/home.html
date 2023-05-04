@@ -1,0 +1,32 @@
+{% extends "base.html" %} 
+
+{% block title %}
+Home
+{% endblock %}
+
+{% load static %}
+{% block stylesheets %}
+<link rel="stylesheet" href="{% static 'myapp/homepage.css' %}">
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'myapp/homepage.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<section class="hidden">
+    <h1>Hello!</h1>
+    <p>This is our website login, and get active</p>
+</section>
+
+<section class="hidden">
+    <h2>Up for a challenge?</h2>
+    <p>
+        Try our new website featuring multiple new features
+        which will help you with your boredom</p>
+</section>
+
+<section class="hidden">
+    <h2>It is really fun!</h2>
+</section> 
+{% endblock %}¨

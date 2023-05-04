@@ -1,0 +1,52 @@
+/* Lavet af Simon Clausen */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.addform
+{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 75vh;
+}
+
+input{
+    background-color: #606062;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+}
+
+.addsubmit{
+    background-color: #41c674;
+    color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    place-items: center;
+    align-content: center;
+    display: grid;
+}

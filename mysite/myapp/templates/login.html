@@ -1,0 +1,29 @@
+<!-- Lavet af Simon Clausen -->
+{% extends "base.html" %}
+
+{% load static %}
+{% block stylesheets %}
+<link rel="stylesheet" href="{% static 'myapp/login.css' %}">
+<link rel="stylesheet" href="{% static 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200' %}" />
+{% endblock %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <div class="loginform">
+        <i class="fa-solid fa-user"></i>
+        
+        {{ form }} 
+        <i class="fa-solid fa-lock"></i>
+        <button class="loginknap" type="submit">
+             <span class="material-symbols-outlined">
+                 login
+            </span></button>
+    </div>
+    {{ user.is_authenticated}}
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://kit.fontawesome.com/688dc5aae2.js" crossorigin="anonymous"></script>
+{% endblock %}

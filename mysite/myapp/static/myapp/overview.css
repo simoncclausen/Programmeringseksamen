@@ -1,0 +1,54 @@
+/* Lavet af Simon Clausen */
+.all-activity{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+
+
+
+/* Navigation menu styling */
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+ } 
+
+
+.activity-box {
+    border: none;
+    align-items: center;
+    align-content:  space-evenly;
+    height: 100%;
+    display: flex;
+    justify-content: center;  
+    color: #fff;
+    border-radius: 10px;
+    background-color: #131316;
+    box-shadow:
+    0 0 4px 2px #41c674,
+    0 0 6px 3px #41c674,
+    0 0 40px 3px #41c674,
+    0 0 10px 4px #131316;  
+}
+
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+ }
+
+
+
+
+
+
+
+

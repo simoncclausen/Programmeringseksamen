@@ -1,0 +1,44 @@
+/* Lavet af Simon Clausen */
+.activity-box {
+    display: grid;
+    grid-template-areas: 
+     'title title title  id'
+     'description description description description  '
+     'start start end end '
+     'people people  cost cost'; 
+}
+
+ 
+
+.activity-title {
+    grid-area: title;
+}
+
+.activity-description {
+    grid-area: description;
+}
+
+.activity-start {
+    grid-area: start;
+}
+
+.activity-end {
+    grid-area: end;
+    text-align: right;
+}
+
+.activity-id {
+    grid-area: id;
+    text-align: right;
+
+}
+
+.activity-people {
+    grid-area: people;
+}
+
+.activity-cost {
+    grid-area: cost;
+    text-align: right;
+}
+

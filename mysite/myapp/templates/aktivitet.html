@@ -1,0 +1,12 @@
+<!-- Lavet af Simon Clausen -->
+<div class = "activity-box">
+    <div class="activity-title"><h4>{{ aktivitet.aktivitet }}</h4></div>
+    <div class="activity-description"> {{ aktivitet.beskrivelse }} </div>
+    <div class="activity-start"> {{ aktivitet.starttidspunkt }} </div>
+    {% if aktivitet.sluttidspunkt != None %}
+    <div class="activity-end"> {{ aktivitet.sluttidspunkt }} </div>
+    {% endif %}
+    <div class="activity-people"> {{ aktivitet.antalpersoner }} </div>
+    <div class="activity-cost"> {{ aktivitet.pris }} </div>
+    <div class="activity-id"> {{ aktivitet.id }} </div>
+</div>
